@@ -1,0 +1,1315 @@
+{
+  "client_information": {
+    "client_group_name": "Operating Engineers Health and Welfare Fund",
+    "parent_code": "OEF",
+    "benefit_package": "OEF1 \u2013 Active Enrollees",
+    "effective_date": "5/1/2020",
+    "system": "CONNECTIONS ADMINISTRATIVE SYSTEM (CAS)",
+    "claims_paying_entity": "Beacon Health Options is paying claims",
+    "client_name": "Michael B. D. Cutllis",
+    "reference_number": "EDAC4947CB43A",
+    "organization": "Beacon Health Options",
+    "document_type": "Benefit Design Document"
+  },
+  "financial_maximums": {
+    "deductible": {
+      "applies_to_benefit": true,
+      "in_network": {
+        "applies": true,
+        "applies_to": {
+          "OP": true,
+          "IP": true,
+          "ALOC": true
+        },
+        "embedded": {
+          "individual": "$250",
+          "family": "$750"
+        },
+        "aggregate": {
+          "EE": null,
+          "family": null
+        },
+        "aggregate_type": "$",
+        "applies_to_all_services": false,
+        "exceptions": "Other: Deductible does not apply to IP facility services: IP Psych, IP Sub, IP Detox, RTC, Crisis Intervention, 23 hr bed, 72 hr bed"
+      },
+      "out_of_network": {
+        "applies": true,
+        "applies_to": {
+          "OP": true,
+          "IP": true,
+          "ALOC": true
+        },
+        "embedded": {
+          "individual": "$500",
+          "family": "$1500"
+        },
+        "aggregate": {
+          "EE": null,
+          "family": null
+        },
+        "aggregate_type": "$",
+        "applies_to_all_services": false,
+        "exceptions": "Other: Deductible does not apply to IP facility services: IP Psych, IP Sub, IP Detox, RTC, Crisis Intervention, 23 hr bed, 72 hr bed"
+      },
+      "combined_in_out_of_network": false,
+      "inn_applies_to_oon": false,
+      "oon_applies_to_inn": false,
+      "inn_deductible_for_oon_services": true,
+      "inn_deductible_for_oon_services_list": "ER Facility and ER Professional"
+    },
+    "out_of_pocket": {
+      "applies_to_benefit": true,
+      "in_network": {
+        "applies": true,
+        "applies_to": {
+          "OP": true,
+          "IP": true,
+          "ALOC": true
+        },
+        "embedded": {
+          "individual": "$3000",
+          "family": "$6000"
+        },
+        "aggregate": {
+          "EE": null,
+          "family": null
+        },
+        "cost_sharing_applies_to": "Copay, Coinsurance and Deductible",
+        "combined_in_out_of_network": false,
+        "inn_applies_to_oon": false
+      },
+      "out_of_network": {
+        "applies": true,
+        "applies_to": {
+          "OP": true,
+          "IP": true,
+          "ALOC": true
+        },
+        "embedded": {
+          "individual": "$6000",
+          "family": "$12000"
+        },
+        "aggregate": {
+          "EE": null,
+          "family": null
+        },
+        "cost_sharing_applies_to": "Coinsurance and Deductible",
+        "combined_in_out_of_network": false,
+        "oon_applies_to_inn": false
+      },
+      "inn_deductible_for_oon_services": [
+        "ER Facility",
+        "ER Professional"
+      ]
+    }
+  },
+  "outpatient_benefits": {
+    "EAP": {
+      "covered": true,
+      "visit_limit": "#8",
+      "limit_type": "Per Member, Per Problem, Per Year",
+      "exceptions": null
+    },
+    "outpatient_therapies": [
+      {
+        "service": "Psychotherapy",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "Group Therapy",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "Family Therapy",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "Crisis Psychotherapy",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "Medication Mgt",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "Evaluations",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Managed",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "Consultations",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "In-Home Therapy",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2AA",
+            "2AE"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "2NE",
+            "2NN"
+          ]
+        }
+      },
+      {
+        "service": "PsychTesting",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "3AY",
+            "3AZ"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "No Auth Required",
+          "copay": null,
+          "coinsurance": null,
+          "max_visit": null,
+          "benefit_codes": [
+            "3NQ",
+            "3NZ"
+          ]
+        }
+      }
+    ],
+    "benefit_tier_1": [
+      {
+        "tier": "Tier 1",
+        "in_network": {
+          "copay": "$20 Per Day/Visit",
+          "coinsurance": "10%",
+          "max_visit": "None"
+        },
+        "out_of_network": {
+          "copay": null,
+          "coinsurance": "30%",
+          "max_visit": "$15 max payment per visit"
+        }
+      }
+    ],
+    "exceptions_tier_1": {
+      "in_network": null,
+      "out_of_network": null
+    },
+    "ABA": {
+      "covered_benefit": true,
+      "in_network": {
+        "covered": true,
+        "auth_required": true,
+        "copay": "$20 Per Day",
+        "coinsurance": "10%",
+        "max_visit": "None",
+        "benefit_codes": [
+          "ABA"
+        ]
+      },
+      "out_of_network": {
+        "covered": true,
+        "auth_required": true,
+        "copay": null,
+        "coinsurance": "30%",
+        "max_visit": "$15 max payment per visit",
+        "benefit_codes": [
+          "ABA",
+          "ABN"
+        ]
+      },
+      "exceptions_in_network": null,
+      "exceptions_out_of_network": null
+    }
+  },
+  "inpatient_benefits": {
+    "pre_certification_penalty": {
+      "applies_to_benefit": false,
+      "in_network": {
+        "applies": false,
+        "penalty": "N/A"
+      },
+      "out_of_network": {
+        "applies": false,
+        "penalty": "N/A"
+      }
+    },
+    "inpatient_facility": [
+      {
+        "service": "IP Psych",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Notification Required within 48 Hours",
+          "if_no_auth_on_file": "Pend for MNR",
+          "penalty_applies": false,
+          "copay": null,
+          "copay_type": "Other",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "1AA"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Notification Required within 48 Hours",
+          "if_no_auth_on_file": "Pend for MNR",
+          "penalty_applies": false,
+          "copay": null,
+          "copay_type": "Per Admit",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NA"
+          ]
+        }
+      },
+      {
+        "service": "IP Substance",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Notification Required within 48 Hours",
+          "if_no_auth_on_file": "Pend for MNR",
+          "penalty_applies": false,
+          "copay": null,
+          "copay_type": "Other",
+          "coinsurance": "10%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Notification Required within 48 Hours",
+          "if_no_auth_on_file": "Pend for MNR",
+          "penalty_applies": false,
+          "copay": null,
+          "copay_type": "Per Admit",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NE"
+          ]
+        }
+      },
+      {
+        "service": "IP Detox",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Notification Required within 48 Hours",
+          "if_no_auth_on_file": "Pend for MNR",
+          "penalty_applies": false,
+          "copay": null,
+          "copay_type": "Other",
+          "coinsurance": "10%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Notification Required within 48 Hours",
+          "if_no_auth_on_file": "Pend for MNR",
+          "penalty_applies": false,
+          "copay": null,
+          "copay_type": "Per Admit",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NQ"
+          ]
+        }
+      },
+      {
+        "service": "Administratively Necessary Days",
+        "in_network": {
+          "covered": false,
+          "psych_or_sa": "Psych or SA",
+          "auth_requirement": "Other:",
+          "if_no_auth_on_file": "Other:",
+          "penalty_applies": null,
+          "copay": null,
+          "copay_type": "Copay Type:",
+          "coinsurance": "%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": false,
+          "psych_or_sa": "Psych or SA",
+          "auth_requirement": "Other:",
+          "if_no_auth_on_file": "Other:",
+          "penalty_applies": null,
+          "copay": null,
+          "copay_type": "Copay Type:",
+          "coinsurance": "%",
+          "benefit_codes": []
+        }
+      }
+    ],
+    "inpatient_professional_services": [
+      {
+        "service": "IP Professional Psych",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "1AI"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NI"
+          ]
+        }
+      },
+      {
+        "service": "IP Professional SA",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "10%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "N/A",
+          "copay": "$ N/A",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NM"
+          ]
+        }
+      },
+      {
+        "service": "IP Prof Detox",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "10%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "N/A",
+          "copay": "$ N/A",
+          "coinsurance": "30%",
+          "benefit_codes": []
+        }
+      },
+      {
+        "service": "Medical Consults on a BH Floor",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "1AI",
+            "1AI",
+            "1AQ"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "N/A",
+          "copay": "$ N/A",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NI",
+            "1NM"
+          ]
+        }
+      },
+      {
+        "service": "BH Consults on a Medical Floor",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "1AI",
+            "1AI",
+            "1AQ"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "N/A",
+          "copay": "$ N/A",
+          "coinsurance": "30%",
+          "benefit_codes": [
+            "1NI",
+            "1NM"
+          ]
+        }
+      },
+      {
+        "service": "IP Psych Testing",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Auth Not Required",
+          "pay_based_on_network_status": "N/A",
+          "copay": "N/A",
+          "coinsurance": "10%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "N/A",
+          "copay": "$ N/A",
+          "coinsurance": "30%",
+          "benefit_codes": []
+        }
+      }
+    ],
+    "alternative_levels_of_care": [
+      {
+        "service": "Group Home",
+        "covered_or_rtm": "Not Covered",
+        "covd_as": "IP or OP",
+        "psych_or_sa": "Psych or SA",
+        "authorization_requirement": "Choose an Option:",
+        "if_no_auth_on_file": "Choose an Option:",
+        "penalty_applies": "Yes or No:",
+        "inn_copay": "$ Copay Type:",
+        "inn_coinsurance": "%",
+        "benefit_codes": []
+      },
+      {
+        "service": "Halfway House",
+        "covered_or_rtm": "Not Covered",
+        "covd_as": "IP or OP",
+        "psych_or_sa": "Psych or SA",
+        "authorization_requirement": "Choose an Option:",
+        "if_no_auth_on_file": "Choose an Option:",
+        "penalty_applies": "Yes or No:",
+        "inn_copay": "$ Copay Type:",
+        "inn_coinsurance": "%",
+        "benefit_codes": []
+      },
+      {
+        "service": "IOP",
+        "covered_or_rtm": "Covered",
+        "covd_as": "OP",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Notification Req",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$20 Per Day/Visit",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "OP",
+        "ip_or_op": "OP",
+        "notification_requirement": "Notification Reg within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:",
+        "coinsurance": "30% and $15 max payment per visit"
+      },
+      {
+        "service": "RTC",
+        "covered_or_rtm": "Covered",
+        "covd_as": "IP",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Notification Req within 48 Hours",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$ Copay Type:",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "IP",
+        "ip_or_op": "IP",
+        "notification_requirement": "Notification Req within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:"
+      },
+      {
+        "service": "Partial Hosp",
+        "covered_or_rtm": "Covered",
+        "covd_as": "OP",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Notification Req within 48 Hours",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$20 Per Day/Visit",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "OP",
+        "ip_or_op": "OP",
+        "notification_requirement": "Notification Req within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:",
+        "coinsurance": "30% and $15 max payment per visit"
+      },
+      {
+        "service": "Ambulatory Detox",
+        "covered_or_rtm": "Covered",
+        "covd_as": "OP",
+        "psych_or_sa": "SA Only",
+        "authorization_requirement": "Notification Req within 48 Hours",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$20 Per Day/Visit",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "OP",
+        "ip_or_op": "OP",
+        "notification_requirement": "Notification Req within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:",
+        "coinsurance": "30% and $15 max payment per visit"
+      },
+      {
+        "service": "Crisis Intervention",
+        "covered_or_rtm": "Covered",
+        "covd_as": "IP",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Notification Req within 48 Hours",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$ Copay Type:",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "IP",
+        "ip_or_op": "IP",
+        "notification_requirement": "Notification Req within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:",
+        "coinsurance": "30%"
+      },
+      {
+        "service": "Treatment/Observation Room (23 Hour Bed)",
+        "covered_or_rtm": "Covered",
+        "covd_as": "IP",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Notification Req within 48 Hours",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$ Copay Type:",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "IP",
+        "ip_or_op": "IP",
+        "notification_requirement": "Notification Req within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:",
+        "coinsurance": "30%"
+      },
+      {
+        "service": "Observation Room (72 Hour Bed)",
+        "covered_or_rtm": "Covered",
+        "covd_as": "IP",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Notification Req within 48 Hours",
+        "if_no_auth_on_file": "Pend for MNR",
+        "penalty_applies": "N/A",
+        "inn_copay": "$ Copay Type:",
+        "inn_coinsurance": "10%",
+        "covered": true,
+        "in_network": "IP",
+        "ip_or_op": "IP",
+        "notification_requirement": "Notification Req within 48 Hours",
+        "pend_for_mnr": "Pend for MNR",
+        "yes_or_no": "N/A",
+        "copay_type": "$ Copay Type:",
+        "coinsurance": "30%"
+      }
+    ],
+    "exceptions_comments_justification": null
+  },
+  "other_benefits": {
+    "emergency_services": [
+      {
+        "service": "ER Facility",
+        "network_status": "In-Network",
+        "covered_or_rtm": "Covered",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "waive_copay_if_admitted": "No",
+        "inn_copay": "$",
+        "inn_copay_amount": "N/A",
+        "inn_coins": "10%",
+        "benefit_codes": [
+          "3AC",
+          "3NA"
+        ]
+      },
+      {
+        "service": "ER Professional",
+        "network_status": "In-Network",
+        "covered_or_rtm": "Covered",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "waive_copay_if_admitted": "No",
+        "inn_copay": "$",
+        "inn_copay_amount": "N/A",
+        "inn_coins": "10%",
+        "benefit_codes": [
+          "3AD",
+          "3NB"
+        ]
+      },
+      {
+        "service": "ER Facility",
+        "network_status": "Out-of-Network",
+        "covered_or_rtm": "Covered",
+        "psych_or_sa": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "waive_copay_if_admitted": "No",
+        "oon_copay": "$",
+        "oon_copay_amount": "N/A",
+        "oon_coins": "10%",
+        "benefit_codes": [
+          "3AC",
+          "3NA"
+        ]
+      }
+    ],
+    "ECT": {
+      "coverage_type": "Covered for Psych Only",
+      "in_network": [
+        {
+          "service": "ECT IP Facility",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "Authorization Req",
+          "if_no_auth_on_file": "Pend for MNR",
+          "covered_as": "IP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "inn_coinsurance": "10%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT IP Professional",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "IP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "inn_coinsurance": "10%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT IP Anesthesia",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "IP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "inn_coinsurance": "10%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT OP Facility",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "Authorization Req",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "OP",
+          "copay": "$",
+          "copay_type": "N/A",
+          "inn_coinsurance": "10%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT OP Professional",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "OP",
+          "copay": "$20",
+          "copay_frequency": "Per Day/Visit",
+          "inn_coinsurance": "10%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT OP Anesthesia",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "OP",
+          "copay": "$",
+          "copay_type": "N/A",
+          "inn_coinsurance": "10%",
+          "benefit_codes": []
+        }
+      ],
+      "out_of_network": [
+        {
+          "service": "ECT IP Facility",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "Authorization Req",
+          "if_no_auth_on_file": "Pend for MNR",
+          "covered_as": "IP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "oon_coinsurance": "30%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT IP Professional *",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "IP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "oon_coinsurance": "30%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT IP Anesthesia *",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "IP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "oon_coinsurance": "30%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT OP Facility",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "Authorization Req",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "OP",
+          "copay": "$",
+          "copay_type": "Copay Type:",
+          "oon_coinsurance": "30%",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT OP Professional *",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "OP",
+          "copay": "$",
+          "copay_type": "N/A",
+          "oon_coinsurance": "30% and $15 max payment per visit",
+          "benefit_codes": []
+        },
+        {
+          "service": "ECT OP Anesthesia *",
+          "covered": true,
+          "covered_or_rtm": "Covered",
+          "auth_requirement": "No Auth Req but Confirm ECT is Authorized",
+          "if_no_auth_on_file": "Choose an Option:",
+          "covered_as": "OP",
+          "copay": "$",
+          "copay_type": "N/A",
+          "oon_coinsurance": "30%",
+          "benefit_codes": []
+        }
+      ],
+      "notes": [
+        "* Pay Based on the Network Status of the Facility? Yes - Allow services at the INN benefit when rendered at an INN facility."
+      ]
+    },
+    "out_of_country": {
+      "covered": true,
+      "emergency_only": true,
+      "paid_at_inn_billed_charges": false,
+      "service_dx_codes_required": false,
+      "payment_to_member": true,
+      "member_name_dob_required": true,
+      "provider_name_address_required": true,
+      "rate_of_exchange_required": true
+    },
+    "other_outpatient_professional": [
+      {
+        "service": "Methadone Maintenance",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$N/A",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "4AI"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$ Copay Type:",
+          "coinsurance": "30% and $15 max payment per visit",
+          "benefit_codes": [
+            "4NI"
+          ]
+        }
+      },
+      {
+        "service": "Suboxone",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$N/A",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "4AG"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "SA Only",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$ Copay Type:",
+          "coinsurance": "30% and $15 max payment per visit",
+          "benefit_codes": [
+            "4NG"
+          ]
+        }
+      },
+      {
+        "service": "Biofeedback",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$20 Per Day/Visit",
+          "coinsurance": "10%",
+          "benefit_codes": [
+            "4AB"
+          ]
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_or_sa": "Psych & SA",
+          "auth_requirement": "Auth Not Required",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$ Copay Type:",
+          "coinsurance": "30% and $15 max payment per visit",
+          "benefit_codes": [
+            "4NB"
+          ]
+        }
+      },
+      {
+        "service": "Hypnotherapy",
+        "in_network": {
+          "covered": false,
+          "psych_or_sa": "Choose an Option:",
+          "auth_requirement": "Choose an Option:",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$N/A",
+          "coinsurance": null,
+          "benefit_codes": [
+            "4AA"
+          ]
+        },
+        "out_of_network": {
+          "covered": false,
+          "psych_or_sa": "Choose an Option:",
+          "auth_requirement": "Choose an Option:",
+          "if_no_auth_on_file": "Choose an Option:",
+          "copay": "$ Copay Type:",
+          "coinsurance": null,
+          "benefit_codes": [
+            "4NA"
+          ]
+        }
+      },
+      {
+        "service": "TMS - Transcranial Magnetic Stimulation",
+        "in_network": {
+          "covered": true,
+          "psych_or_sa": "Psych Only",
+          "auth_requirement": "Auth Required",
+          "if_no_auth_on_file": "Pend for MNR",
+          "copay": "$20 Per Day/Visit",
+          "coinsurance": "10%",
+          "benefit_codes": []
+        },
+        "out_of_network": {
+          "covered": true,
+          "psych_only": true,
+          "auth_required": true,
+          "pend_for_MNR": true,
+          "copay_type": "$",
+          "copay_coinsurance": "30% and $15 max payment per visit",
+          "benefit_codes": []
+        }
+      }
+    ],
+    "other_services": [
+      {
+        "service": "OP Labs & Diagnostic Testing",
+        "covered_or_RTM": "Covered",
+        "psych_or_SA": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "if_no_auth_on_file": "N/A",
+        "INN_copay": "N/A",
+        "INN_coinsurance": "10%",
+        "benefit_codes": [
+          "3AU",
+          "3AW",
+          "3NO",
+          "3NP"
+        ]
+      },
+      {
+        "service": "IP Labs & Diagnostic Testing",
+        "covered_or_RTM": "Covered",
+        "psych_or_SA": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "if_no_auth_on_file": "N/A",
+        "INN_copay": "N/A",
+        "INN_coinsurance": "10%",
+        "benefit_codes": []
+      },
+      {
+        "service": "Injections",
+        "covered_or_RTM": "Covered",
+        "psych_or_SA": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "if_no_auth_on_file": "N/A",
+        "INN_copay": "N/A",
+        "INN_coinsurance": "10%",
+        "benefit_codes": [
+          "4AJ",
+          "4NJ"
+        ]
+      },
+      {
+        "service": "Ambulance",
+        "covered_or_RTM": "Not Covered",
+        "psych_or_SA": "Psych or SA:",
+        "authorization_requirement": "Choose an Option:",
+        "if_no_auth_on_file": null,
+        "INN_copay": null,
+        "INN_coinsurance": null,
+        "benefit_codes": [
+          "3AF",
+          "3NC"
+        ]
+      },
+      {
+        "service": "OP Labs & Diagnostic Testing*",
+        "covered_or_RTM": "Covered",
+        "psych_or_SA": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "if_no_auth_on_file": "N/A",
+        "OON_copay": "N/A",
+        "OON_coinsurance": "30%",
+        "benefit_codes": [
+          "3AU",
+          "3AW",
+          "3NO",
+          "3NP"
+        ]
+      },
+      {
+        "service": "IP Labs & Diagnostic Testing**",
+        "covered_or_RTM": "Covered",
+        "psych_or_SA": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "if_no_auth_on_file": "N/A",
+        "OON_copay": "N/A",
+        "OON_coinsurance": "30%",
+        "benefit_codes": []
+      },
+      {
+        "service": "Injections",
+        "covered_or_RTM": "Covered",
+        "psych_or_SA": "Psych & SA",
+        "authorization_requirement": "Auth Not Required",
+        "if_no_auth_on_file": "N/A",
+        "OON_copay": "N/A",
+        "OON_coinsurance": "30%",
+        "benefit_codes": [
+          "4AJ",
+          "4NJ"
+        ]
+      },
+      {
+        "service": "Ambulance",
+        "covered_or_RTM": "Not Covered",
+        "psych_or_SA": "Psych or SA:",
+        "authorization_requirement": "Choose an Option:",
+        "if_no_auth_on_file": null,
+        "OON_copay": null,
+        "OON_coinsurance": null,
+        "benefit_codes": [
+          "3AF",
+          "3NC"
+        ]
+      }
+    ],
+    "other_services_footnotes": [
+      "* Pay Based on the Network Status of the Ordering Provider? Yes - Allow services at the INN benefit when ordered by an INN provider.",
+      "** Pay Based on the Network Status of the Facility? Yes - Allow services at the INN benefit when rendered at an INN facility."
+    ],
+    "transition_benefits": {
+      "covered": true,
+      "description": "Typically used for new client implementations. Allows OON providers to be paid as INN for a period of time while the member finds an INN provider, or the OON provider becomes credentialed.",
+      "applies_to_psych": true,
+      "applies_to_sub_abuse": true,
+      "applies_to_OP": true,
+      "applies_to_IP": true,
+      "applies_to_ALOC": true,
+      "auth_required": "No change in Auth Requirement",
+      "start_date": "05/01/2020",
+      "end_date": "07/31/2020",
+      "paid_same_as_regular_benefits": true,
+      "if_no_please_define": null,
+      "exceptions_comments_justification": null
+    }
+  },
+  "claims_handling": {
+    "coversheeted_carrier": null,
+    "carrier_customer_service_phone": "(###) ###-####",
+    "comments": null,
+    "break_in_treatment": "N/A",
+    "expatriates_covered": true,
+    "medicare_primary_auth_required": false
+  },
+  "abbreviation_index": {
+    "INN": "In-Network",
+    "OON": "Out-of-Network",
+    "RTM": "Refer to Medical",
+    "Coinsurance": "Member Responsibility",
+    "MNR": "Medical Necessity Review",
+    "SA": "Substance Abuse",
+    "Auth": "Authorization",
+    "BH": "Behavioral Health"
+  },
+  "acceptance_agreement": {
+    "statement": "The information stated above accurately depicts how claims for this benefit plan will be paid. I agree that all of the above information is accurate. Any information not defined by the requestor may have impact on development time and claims processing accuracy.",
+    "signatures": [
+      {
+        "role": "Regional Leadership (including VP of Field Operations or above for the respective market or Account Executive)",
+        "signature": "Julie Scott",
+        "date": "3/18/2020"
+      },
+      {
+        "role": "Client",
+        "signature": "Michael B. D. Cutllis",
+        "reference_number": "EDAC4947CB43A",
+        "date": "3/19/2020"
+      }
+    ]
+  },
+  "metadata": {
+    "total_pages": 11,
+    "effective_date": "5/1/2020",
+    "client_name": "Operating Engineers Health and Welfare Fund (Michael B. D. Cutllis)",
+    "benefit_package": "OEF1 \u2013 Active Enrollees",
+    "docusign_envelope_id": "B1E6CC89-EE8D-46F7-BB31-495DF5F6146C",
+    "document_id": "B1E6CC89-EE8D-46F7-BB31-495DF5F6146C",
+    "file_reference": "$aadbc43e9a2d$231075CA704548918E2C7F982FE7CBC0.docx",
+    "configuration_version": "Enterprise Systems Configuration \u2013 2020, v2",
+    "copyright": "\u00a9 2020 Beacon Health Options/All rights reserved"
+  }
+}
